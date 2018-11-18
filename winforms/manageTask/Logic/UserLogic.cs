@@ -193,12 +193,12 @@ namespace manageTask.Logic
             }
 
         }
-        public static List<SumHoursDoneUser> getSumHoursDoneForUsers()
+        public static List<SumHoursDoneUser> getSumHoursDoneForUsers(int projectId)
         {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri($"{GlobalProp.URI}");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync($"api/Users/getSumHoursDoneForUsers/{GlobalProp.CurrentUser.UserId}").Result;
+            HttpResponseMessage response = client.GetAsync($"api/Users/getSumHoursDoneForUsers/{GlobalProp.CurrentUser.UserId}/{projectId}").Result;
             if (response.IsSuccessStatusCode)
             {
  

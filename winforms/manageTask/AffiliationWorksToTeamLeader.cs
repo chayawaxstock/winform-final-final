@@ -78,26 +78,26 @@ namespace manageTask
 
 
         private void btn_workerToTeamleader_Click(object sender, EventArgs e)
-        {
+        {///מיורק זמני
 
-            User editUser = new User();
-            editUser = (cmbx_worker.SelectedItem as User);
-            editUser.ManagerId = (cmbx_team.SelectedItem as User).UserId;
-            try
-            {
-                var httpResponse = UserLogic.updateUser(editUser);
-                if (httpResponse.StatusDescription == "OK")
-                {
-                    RadMessageBox.SetThemeName("MaterialTeal");
-                    RadMessageBox.Show("sucsess", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
-                }
-                else MessageBox.Show("ERROR!");
+            //User editUser = new User();
+            //editUser = (cmbx_worker.SelectedItem as User);
+            //editUser.ManagerId = (cmbx_team.SelectedItem as User).UserId;
+            //try
+            //{
+            //    var httpResponse = UserLogic.updateUser(editUser);
+            //    if (httpResponse.StatusDescription == "OK")
+            //    {
+            //        RadMessageBox.SetThemeName("MaterialTeal");
+            //        RadMessageBox.Show("sucsess", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
+            //    }
+            //    else MessageBox.Show("ERROR!");
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("cant affiliation the worker to team leader");
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show("cant affiliation the worker to team leader");
+            //}
         }
     }
 }
