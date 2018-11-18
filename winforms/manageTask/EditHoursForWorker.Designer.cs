@@ -52,6 +52,7 @@ namespace manageTask
             this.dgv_projectHours.Size = new System.Drawing.Size(596, 432);
             this.dgv_projectHours.TabIndex = 7;
             this.dgv_projectHours.Visible = false;
+            this.dgv_projectHours.CellValueChanged += new Telerik.WinControls.UI.GridViewCellEventHandler(this.Edit_hours);
             // 
             // lbl_worker
             // 
@@ -80,6 +81,7 @@ namespace manageTask
             this.cmbx_workers.Name = "cmbx_workers";
             this.cmbx_workers.Size = new System.Drawing.Size(160, 21);
             this.cmbx_workers.TabIndex = 8;
+            this.cmbx_workers.SelectedIndexChanged += new System.EventHandler(this.cmbx_workers_SelectedIndexChanged);
             // 
             // EditHoursForWorker
             // 

@@ -27,7 +27,7 @@ namespace manageTask
             cmbx_team.Visible = false;
         }
 
- 
+
         private void AffiliationWorksToTeamLeader_Load_1(object sender, EventArgs e)
         {
             List<User> workers = UserRequests.getSimpleWorkers();
@@ -36,7 +36,7 @@ namespace manageTask
                 cmbx_worker.DisplayMember = "UserName";
                 foreach (User worker in workers)
                 {
-                    cmbx_worker.Items.Add(getItemWorker( worker));
+                    cmbx_worker.Items.Add(getItemWorker(worker));
                 }
             }
 
@@ -52,7 +52,7 @@ namespace manageTask
 
 
         private void btn_workerToTeamleader_Click(object sender, EventArgs e)
-<<<<<<< HEAD
+
         {
 
             User editUser = new User();
@@ -64,9 +64,10 @@ namespace manageTask
                 if (httpResponse.StatusDescription == "OK")
                 {
                     RadMessageBox.SetThemeName("MaterialTeal");
-                    RadMessageBox.Show("add worker to teamLeader", "sucsess",  MessageBoxButtons.OK, RadMessageIcon.None, MessageBoxDefaultButton.Button1);
+                    RadMessageBox.Show("add worker to teamLeader", "sucsess", MessageBoxButtons.OK, RadMessageIcon.None, MessageBoxDefaultButton.Button1);
                 }
-                else {
+                else
+                {
                     RadMessageBox.SetThemeName("MaterialTeal");
                     RadMessageBox.Show("error", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
                 }
@@ -74,7 +75,7 @@ namespace manageTask
             catch (Exception ex)
             {
                 RadMessageBox.SetThemeName("MaterialTeal");
-                RadMessageBox.Show("can not affiliation the worker to team leader", "error",  MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
+                RadMessageBox.Show("can not affiliation the worker to team leader", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
             }
         }
 
@@ -94,28 +95,29 @@ namespace manageTask
                     cmbx_team.Items.Add(getItemWorker(user));
                 }
             }
-=======
-        {///מיורק זמני
 
-            //User editUser = new User();
-            //editUser = (cmbx_worker.SelectedItem as User);
-            //editUser.ManagerId = (cmbx_team.SelectedItem as User).UserId;
-            //try
-            //{
-            //    var httpResponse = UserLogic.updateUser(editUser);
-            //    if (httpResponse.StatusDescription == "OK")
-            //    {
-            //        RadMessageBox.SetThemeName("MaterialTeal");
-            //        RadMessageBox.Show("sucsess", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
-            //    }
-            //    else MessageBox.Show("ERROR!");
+            {///מיורק זמני
 
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show("cant affiliation the worker to team leader");
-            //}
->>>>>>> 1366b6f89c614fab58356cfadb1f9519b00698a2
+                //User editUser = new User();
+                //editUser = (cmbx_worker.SelectedItem as User);
+                //editUser.ManagerId = (cmbx_team.SelectedItem as User).UserId;
+                //try
+                //{
+                //    var httpResponse = UserLogic.updateUser(editUser);
+                //    if (httpResponse.StatusDescription == "OK")
+                //    {
+                //        RadMessageBox.SetThemeName("MaterialTeal");
+                //        RadMessageBox.Show("sucsess", "error", MessageBoxButtons.OK, RadMessageIcon.Error, MessageBoxDefaultButton.Button1);
+                //    }
+                //    else MessageBox.Show("ERROR!");
+
+                //}
+                //catch (Exception ex)
+                //{
+                //    MessageBox.Show("cant affiliation the worker to team leader");
+                //}
+
+            }
         }
     }
 }
