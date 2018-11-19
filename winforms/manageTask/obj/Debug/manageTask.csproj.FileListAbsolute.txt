@@ -1384,7 +1384,6 @@ C:\Users\seldat\Documents\GitHub\final-final-final\winforms\manageTask\obj\Debug
 C:\Users\seldat\Documents\GitHub\final-final-final\winforms\manageTask\obj\Debug\manageTask.exe
 C:\Users\seldat\Documents\GitHub\final-final-final\winforms\manageTask\obj\Debug\manageTask.pdb
 C:\Users\seldat\Documents\GitHub\final-final-final\winforms\manageTask\obj\Debug\manageTask.Manager.resources
-<<<<<<< HEAD
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\bin\Debug\SqlServerTypes\x86\msvcr120.dll
@@ -1573,7 +1572,6 @@ C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\obj\Deb
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csproj.CopyComplete
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\obj\Debug\manageTask.exe
 C:\Users\seldat\Documents\GitHub\winform-final-final\winforms\manageTask\obj\Debug\manageTask.pdb
-=======
 S:\חני ולדר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csprojAssemblyReference.cache
 S:\חני ולדר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.exe.config
 S:\חני ולדר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AddProject.resources
@@ -1715,3 +1713,35 @@ S:\חני ולדר\winform-final-final\winforms\manageTask\bin\Debug\zh-CHS\Micr
 S:\חני ולדר\winform-final-final\winforms\manageTask\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 S:\חני ולדר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csproj.CopyComplete
 >>>>>>> 1366b6f89c614fab58356cfadb1f9519b00698a2
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.exe.config
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AddProject.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AddWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AddWorkerToProject.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AffiliationWorksToTeamLeader.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.AllProjects.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.CompanyWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.CompanyWorkerTasks.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.ContactManager.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.DeleteWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.EditHoursForWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.EditWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.GraphHoursStatus.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.GraphHoursStatusCompanyWorker.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.Login.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.Main.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.Manager.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.ProjectDetails.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.Properties.Resources.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.RadRibbonForm1.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.Report.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.SetPermission.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.SetTime.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.ShapedForm1.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.TeamLeader.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.UserProfil.resources
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csproj.GenerateResource.Cache
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.exe.licenses
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.exe
+C:\Users\User\Documents\נופש שפר\winform-final-final\winforms\manageTask\obj\Debug\manageTask.pdb

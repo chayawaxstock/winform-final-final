@@ -147,6 +147,12 @@
     <Compile Include="AffiliationWorksToTeamLeader.Designer.cs">
       <DependentUpon>AffiliationWorksToTeamLeader.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllProjects.Designer.cs">
+      <DependentUpon>AllProjects.cs</DependentUpon>
+    </Compile>
     <Compile Include="CompanyWorker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -306,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AffiliationWorksToTeamLeader.resx">
       <DependentUpon>AffiliationWorksToTeamLeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllProjects.resx">
+      <DependentUpon>AllProjects.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CompanyWorker.resx">
       <DependentUpon>CompanyWorker.cs</DependentUpon>
