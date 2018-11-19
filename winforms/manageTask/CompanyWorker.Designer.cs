@@ -59,7 +59,7 @@ namespace manageTask
             this.yourTasksToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1541, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1541, 37);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.ThemeName = "MaterialTeal";
             // 
@@ -94,7 +94,7 @@ namespace manageTask
             // 
             // lbl_date
             // 
-            this.lbl_date.Location = new System.Drawing.Point(998, 81);
+            this.lbl_date.Location = new System.Drawing.Point(1311, 225);
             this.lbl_date.Name = "lbl_date";
             this.lbl_date.Size = new System.Drawing.Size(2, 2);
             this.lbl_date.TabIndex = 5;
@@ -122,6 +122,7 @@ namespace manageTask
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "CompanyWorker";
             this.ThemeName = "MaterialTeal";
+            this.Load += new System.EventHandler(this.CompanyWorker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radClock1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_date)).EndInit();

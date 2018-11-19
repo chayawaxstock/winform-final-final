@@ -39,6 +39,7 @@ namespace manageTask
             this.office2013DarkTheme1 = new Telerik.WinControls.Themes.Office2013DarkTheme();
             this.office2010SilverTheme1 = new Telerik.WinControls.Themes.Office2010SilverTheme();
             this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -53,8 +54,9 @@ namespace manageTask
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1582, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(1586, 49);
             this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.ThemeName = "MaterialTeal";
             // 
             // projectsDetailsToolStripMenuItem
             // 
@@ -89,7 +91,7 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1582, 1050);
+            this.ClientSize = new System.Drawing.Size(1586, 1047);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -99,6 +101,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "TeamLeader";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.TeamLeader_Load);
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
@@ -116,5 +119,6 @@ namespace manageTask
         private Telerik.WinControls.Themes.Office2010SilverTheme office2010SilverTheme1;
         private Telerik.WinControls.RadThemeManager radThemeManager1;
         private Telerik.WinControls.RadThemeManager rad;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

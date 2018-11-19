@@ -33,6 +33,7 @@
             this.department_value = new Telerik.WinControls.UI.RadLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.btn_log_out)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name_value)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.department_value)).BeginInit();
@@ -41,11 +42,12 @@
             // 
             // btn_log_out
             // 
-            this.btn_log_out.Location = new System.Drawing.Point(313, 21);
+            this.btn_log_out.Location = new System.Drawing.Point(289, 21);
             this.btn_log_out.Name = "btn_log_out";
-            this.btn_log_out.Size = new System.Drawing.Size(67, 24);
+            this.btn_log_out.Size = new System.Drawing.Size(91, 36);
             this.btn_log_out.TabIndex = 3;
             this.btn_log_out.Text = "Log out";
+            this.btn_log_out.ThemeName = "MaterialTeal";
             this.btn_log_out.Click += new System.EventHandler(this.btn_log_out_Click);
             // 
             // name_value
@@ -54,6 +56,7 @@
             this.name_value.Name = "name_value";
             this.name_value.Size = new System.Drawing.Size(2, 2);
             this.name_value.TabIndex = 6;
+            this.name_value.ThemeName = "MaterialTeal";
             // 
             // department_value
             // 
@@ -61,6 +64,7 @@
             this.department_value.Name = "department_value";
             this.department_value.Size = new System.Drawing.Size(2, 2);
             this.department_value.TabIndex = 7;
+            this.department_value.ThemeName = "MaterialTeal";
             // 
             // pictureBox1
             // 
@@ -95,5 +99,6 @@
         private Telerik.WinControls.UI.RadLabel department_value;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

@@ -41,6 +41,7 @@ namespace manageTask
             this.reportsToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
             this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -55,8 +56,9 @@ namespace manageTask
             this.reportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(973, 20);
+            this.menuStrip1.Size = new System.Drawing.Size(977, 37);
             this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.ThemeName = "MaterialTeal";
             // 
             // addProjectToolStripMenuItem
             // 
@@ -116,19 +118,20 @@ namespace manageTask
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             this.reportsToolStripMenuItem.Text = "Reports";
             // 
-            // b
+            // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 684);
+            this.ClientSize = new System.Drawing.Size(977, 686);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
-            this.Name = "b";
+            this.Name = "Manager";
             // 
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "Manager";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.Manager_Load);
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
@@ -151,5 +154,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadMenuItem reportsToolStripMenuItem;
         private Telerik.WinControls.RadThemeManager radThemeManager1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

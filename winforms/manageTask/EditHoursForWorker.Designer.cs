@@ -33,6 +33,7 @@ namespace manageTask
             this.lbl_worker = new Telerik.WinControls.UI.RadLabel();
             this.label3 = new Telerik.WinControls.UI.RadLabel();
             this.cmbx_workers = new System.Windows.Forms.ComboBox();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_projectHours)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_projectHours.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_worker)).BeginInit();
@@ -51,6 +52,7 @@ namespace manageTask
             this.dgv_projectHours.Name = "dgv_projectHours";
             this.dgv_projectHours.Size = new System.Drawing.Size(596, 432);
             this.dgv_projectHours.TabIndex = 7;
+            this.dgv_projectHours.ThemeName = "MaterialTeal";
             this.dgv_projectHours.Visible = false;
             this.dgv_projectHours.CellValueChanged += new Telerik.WinControls.UI.GridViewCellEventHandler(this.Edit_hours);
             // 
@@ -63,6 +65,7 @@ namespace manageTask
             this.lbl_worker.Size = new System.Drawing.Size(89, 19);
             this.lbl_worker.TabIndex = 6;
             this.lbl_worker.Text = "Worker name";
+            this.lbl_worker.ThemeName = "MaterialTeal";
             // 
             // label3
             // 
@@ -73,6 +76,7 @@ namespace manageTask
             this.label3.Size = new System.Drawing.Size(159, 22);
             this.label3.TabIndex = 4;
             this.label3.Text = "Edit hours for worker";
+            this.label3.ThemeName = "MaterialTeal";
             // 
             // cmbx_workers
             // 
@@ -87,7 +91,7 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1154, 601);
+            this.ClientSize = new System.Drawing.Size(1158, 603);
             this.Controls.Add(this.cmbx_workers);
             this.Controls.Add(this.dgv_projectHours);
             this.Controls.Add(this.lbl_worker);
@@ -98,6 +102,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "EditHoursForWorker";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.EditHoursForWorker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_projectHours.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_projectHours)).EndInit();
@@ -115,5 +120,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadLabel lbl_worker;
         private Telerik.WinControls.UI.RadLabel label3;
         private System.Windows.Forms.ComboBox cmbx_workers;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

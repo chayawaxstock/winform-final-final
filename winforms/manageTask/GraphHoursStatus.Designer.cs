@@ -34,6 +34,7 @@ namespace manageTask
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label2 = new Telerik.WinControls.UI.RadLabel();
             this.dropDown_projects = new Telerik.WinControls.UI.RadDropDownList();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dropDown_projects)).BeginInit();
@@ -66,21 +67,23 @@ namespace manageTask
             this.label2.Size = new System.Drawing.Size(148, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Graph hours status";
+            this.label2.ThemeName = "MaterialTeal";
             // 
             // dropDown_projects
             // 
             this.dropDown_projects.Location = new System.Drawing.Point(117, 60);
             this.dropDown_projects.Name = "dropDown_projects";
-            this.dropDown_projects.Size = new System.Drawing.Size(125, 20);
+            this.dropDown_projects.Size = new System.Drawing.Size(125, 36);
             this.dropDown_projects.TabIndex = 4;
             this.dropDown_projects.Text = "radDropDownList1";
+            this.dropDown_projects.ThemeName = "MaterialTeal";
             this.dropDown_projects.SelectedIndexChanged += new Telerik.WinControls.UI.Data.PositionChangedEventHandler(this.dropDown_projects_SelectedIndexChanged);
             // 
             // GraphHoursStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1131, 604);
+            this.ClientSize = new System.Drawing.Size(1135, 606);
             this.Controls.Add(this.dropDown_projects);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.label2);
@@ -90,6 +93,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "GraphHoursStatus";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.GraphHoursStatus_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label2)).EndInit();
@@ -105,5 +109,6 @@ namespace manageTask
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private Telerik.WinControls.UI.RadLabel label2;
         private Telerik.WinControls.UI.RadDropDownList dropDown_projects;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

@@ -44,6 +44,7 @@ namespace manageTask
             this.lbl_projectName = new Telerik.WinControls.UI.RadLabel();
             this.label1 = new Telerik.WinControls.UI.RadLabel();
             this.cmbx_projects = new System.Windows.Forms.ComboBox();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.grbx_project_details)).BeginInit();
             this.grbx_project_details.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.date_end_val)).BeginInit();
@@ -85,6 +86,7 @@ namespace manageTask
             this.grbx_project_details.TabIndex = 9;
             this.grbx_project_details.TabStop = false;
             this.grbx_project_details.Text = "Project details";
+            this.grbx_project_details.ThemeName = "MaterialTeal";
             this.grbx_project_details.Visible = false;
             // 
             // date_end_val
@@ -94,6 +96,7 @@ namespace manageTask
             this.date_end_val.Name = "date_end_val";
             this.date_end_val.Size = new System.Drawing.Size(2, 2);
             this.date_end_val.TabIndex = 9;
+            this.date_end_val.ThemeName = "MaterialTeal";
             // 
             // date_begin_val
             // 
@@ -102,6 +105,7 @@ namespace manageTask
             this.date_begin_val.Name = "date_begin_val";
             this.date_begin_val.Size = new System.Drawing.Size(2, 2);
             this.date_begin_val.TabIndex = 8;
+            this.date_begin_val.ThemeName = "MaterialTeal";
             // 
             // hours_val
             // 
@@ -110,6 +114,7 @@ namespace manageTask
             this.hours_val.Name = "hours_val";
             this.hours_val.Size = new System.Drawing.Size(2, 2);
             this.hours_val.TabIndex = 7;
+            this.hours_val.ThemeName = "MaterialTeal";
             // 
             // customer_val
             // 
@@ -118,6 +123,7 @@ namespace manageTask
             this.customer_val.Name = "customer_val";
             this.customer_val.Size = new System.Drawing.Size(2, 2);
             this.customer_val.TabIndex = 6;
+            this.customer_val.ThemeName = "MaterialTeal";
             // 
             // name_val
             // 
@@ -126,6 +132,7 @@ namespace manageTask
             this.name_val.Name = "name_val";
             this.name_val.Size = new System.Drawing.Size(2, 2);
             this.name_val.TabIndex = 5;
+            this.name_val.ThemeName = "MaterialTeal";
             // 
             // lbl_date_end
             // 
@@ -136,6 +143,7 @@ namespace manageTask
             this.lbl_date_end.Size = new System.Drawing.Size(63, 19);
             this.lbl_date_end.TabIndex = 4;
             this.lbl_date_end.Text = "Date end";
+            this.lbl_date_end.ThemeName = "MaterialTeal";
             // 
             // lbl_date_begin
             // 
@@ -146,6 +154,7 @@ namespace manageTask
             this.lbl_date_begin.Size = new System.Drawing.Size(73, 19);
             this.lbl_date_begin.TabIndex = 3;
             this.lbl_date_begin.Text = "Date begin";
+            this.lbl_date_begin.ThemeName = "MaterialTeal";
             // 
             // lbl_hours
             // 
@@ -156,6 +165,7 @@ namespace manageTask
             this.lbl_hours.Size = new System.Drawing.Size(74, 19);
             this.lbl_hours.TabIndex = 2;
             this.lbl_hours.Text = "Num hours";
+            this.lbl_hours.ThemeName = "MaterialTeal";
             // 
             // lbl_customer
             // 
@@ -166,6 +176,7 @@ namespace manageTask
             this.lbl_customer.Size = new System.Drawing.Size(66, 19);
             this.lbl_customer.TabIndex = 1;
             this.lbl_customer.Text = "Customer";
+            this.lbl_customer.ThemeName = "MaterialTeal";
             // 
             // lbl_name
             // 
@@ -176,6 +187,7 @@ namespace manageTask
             this.lbl_name.Size = new System.Drawing.Size(88, 19);
             this.lbl_name.TabIndex = 0;
             this.lbl_name.Text = "Project name";
+            this.lbl_name.ThemeName = "MaterialTeal";
             // 
             // dgv_project_details
             // 
@@ -188,15 +200,17 @@ namespace manageTask
             this.dgv_project_details.Name = "dgv_project_details";
             this.dgv_project_details.Size = new System.Drawing.Size(480, 444);
             this.dgv_project_details.TabIndex = 8;
+            this.dgv_project_details.ThemeName = "MaterialTeal";
             // 
             // lbl_projectName
             // 
             this.lbl_projectName.Location = new System.Drawing.Point(161, 78);
             this.lbl_projectName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_projectName.Name = "lbl_projectName";
-            this.lbl_projectName.Size = new System.Drawing.Size(72, 18);
+            this.lbl_projectName.Size = new System.Drawing.Size(93, 21);
             this.lbl_projectName.TabIndex = 7;
             this.lbl_projectName.Text = "Project name";
+            this.lbl_projectName.ThemeName = "MaterialTeal";
             // 
             // label1
             // 
@@ -207,6 +221,7 @@ namespace manageTask
             this.label1.Size = new System.Drawing.Size(163, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Projects\' details";
+            this.label1.ThemeName = "MaterialTeal";
             // 
             // cmbx_projects
             // 
@@ -221,7 +236,7 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1163, 616);
+            this.ClientSize = new System.Drawing.Size(1167, 618);
             this.Controls.Add(this.cmbx_projects);
             this.Controls.Add(this.grbx_project_details);
             this.Controls.Add(this.dgv_project_details);
@@ -233,6 +248,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "ProjectDetails";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.ProjectDetails_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grbx_project_details)).EndInit();
             this.grbx_project_details.ResumeLayout(false);
@@ -274,5 +290,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadLabel lbl_projectName;
         private Telerik.WinControls.UI.RadLabel label1;
         private System.Windows.Forms.ComboBox cmbx_projects;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

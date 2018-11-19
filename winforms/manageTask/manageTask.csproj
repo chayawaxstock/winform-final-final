@@ -243,18 +243,6 @@
       <DependentUpon>ProjectDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RadForm2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RadForm2.Designer.cs">
-      <DependentUpon>RadForm2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RadRibbonForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RadRibbonForm1.Designer.cs">
-      <DependentUpon>RadRibbonForm1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Report.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,12 +260,6 @@
     </Compile>
     <Compile Include="SetTime.Designer.cs">
       <DependentUpon>SetTime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ShapedForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ShapedForm1.Designer.cs">
-      <DependentUpon>ShapedForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="TeamLeader.cs">
@@ -357,9 +339,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RadRibbonForm1.resx">
-      <DependentUpon>RadRibbonForm1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
@@ -368,9 +347,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SetTime.resx">
       <DependentUpon>SetTime.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ShapedForm1.resx">
-      <DependentUpon>ShapedForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TeamLeader.resx">
       <DependentUpon>TeamLeader.cs</DependentUpon>

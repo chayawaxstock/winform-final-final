@@ -43,6 +43,7 @@ namespace manageTask
             this.label1 = new Telerik.WinControls.UI.RadLabel();
             this.cmbx_workers = new System.Windows.Forms.ComboBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_worker_name)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grpb_details)).BeginInit();
             this.grpb_details.SuspendLayout();
@@ -62,9 +63,10 @@ namespace manageTask
             // 
             this.lbl_worker_name.Location = new System.Drawing.Point(87, 101);
             this.lbl_worker_name.Name = "lbl_worker_name";
-            this.lbl_worker_name.Size = new System.Drawing.Size(76, 18);
+            this.lbl_worker_name.Size = new System.Drawing.Size(97, 21);
             this.lbl_worker_name.TabIndex = 1;
             this.lbl_worker_name.Text = "Worker name:";
+            this.lbl_worker_name.ThemeName = "MaterialTeal";
             // 
             // grpb_details
             // 
@@ -87,6 +89,7 @@ namespace manageTask
             this.grpb_details.TabIndex = 2;
             this.grpb_details.TabStop = false;
             this.grpb_details.Text = "Worker\'s details";
+            this.grpb_details.ThemeName = "MaterialTeal";
             this.grpb_details.Visible = false;
             // 
             // cmbx_department
@@ -109,71 +112,80 @@ namespace manageTask
             // 
             this.lbl_department.Location = new System.Drawing.Point(37, 236);
             this.lbl_department.Name = "lbl_department";
-            this.lbl_department.Size = new System.Drawing.Size(66, 18);
+            this.lbl_department.Size = new System.Drawing.Size(83, 21);
             this.lbl_department.TabIndex = 10;
             this.lbl_department.Text = "Department";
+            this.lbl_department.ThemeName = "MaterialTeal";
             // 
             // lbl_teamleader
             // 
             this.lbl_teamleader.Location = new System.Drawing.Point(37, 202);
             this.lbl_teamleader.Name = "lbl_teamleader";
-            this.lbl_teamleader.Size = new System.Drawing.Size(61, 18);
+            this.lbl_teamleader.Size = new System.Drawing.Size(79, 21);
             this.lbl_teamleader.TabIndex = 7;
             this.lbl_teamleader.Text = "Teamleade";
+            this.lbl_teamleader.ThemeName = "MaterialTeal";
             // 
             // btn_edit
             // 
             this.btn_edit.Location = new System.Drawing.Point(89, 295);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(75, 23);
+            this.btn_edit.Size = new System.Drawing.Size(75, 36);
             this.btn_edit.TabIndex = 5;
             this.btn_edit.Text = "Edit";
+            this.btn_edit.ThemeName = "MaterialTeal";
             this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // numeric_num_hours_work
             // 
             this.numeric_num_hours_work.Location = new System.Drawing.Point(130, 146);
             this.numeric_num_hours_work.Name = "numeric_num_hours_work";
-            this.numeric_num_hours_work.Size = new System.Drawing.Size(74, 20);
+            this.numeric_num_hours_work.Size = new System.Drawing.Size(74, 36);
             this.numeric_num_hours_work.TabIndex = 4;
+            this.numeric_num_hours_work.ThemeName = "MaterialTeal";
             // 
             // txt_email
             // 
             this.txt_email.Location = new System.Drawing.Point(104, 107);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(100, 20);
+            this.txt_email.Size = new System.Drawing.Size(100, 36);
             this.txt_email.TabIndex = 3;
+            this.txt_email.ThemeName = "MaterialTeal";
             // 
             // txt_name
             // 
             this.txt_name.Location = new System.Drawing.Point(104, 56);
             this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(100, 20);
+            this.txt_name.Size = new System.Drawing.Size(100, 36);
             this.txt_name.TabIndex = 1;
+            this.txt_name.ThemeName = "MaterialTeal";
             // 
             // label4
             // 
             this.label4.Location = new System.Drawing.Point(34, 148);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 18);
+            this.label4.Size = new System.Drawing.Size(117, 21);
             this.label4.TabIndex = 0;
             this.label4.Text = "Num hours work:";
+            this.label4.ThemeName = "MaterialTeal";
             // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(37, 110);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 18);
+            this.label3.Size = new System.Drawing.Size(47, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "Email:";
+            this.label3.ThemeName = "MaterialTeal";
             // 
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(34, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 18);
+            this.label1.Size = new System.Drawing.Size(49, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name:";
+            this.label1.ThemeName = "MaterialTeal";
             // 
             // cmbx_workers
             // 
@@ -188,7 +200,7 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 452);
             this.Controls.Add(this.cmbx_workers);
             this.Controls.Add(this.grpb_details);
             this.Controls.Add(this.lbl_worker_name);
@@ -198,6 +210,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "Edit worker\'s details";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.EditWorker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lbl_worker_name)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grpb_details)).EndInit();
@@ -234,5 +247,6 @@ namespace manageTask
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.ComboBox cmbx_department;
         private System.Windows.Forms.ComboBox cmbx_teamleader;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }
