@@ -20,12 +20,10 @@ namespace manageTask
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-<<<<<<< HEAD
-            Application.Run(new AffiliationWorksToTeamLeader());
-=======
-            Application.Run(new Main());
 
->>>>>>> 798adb7eb2c5b8f80ccd8c2261cc4c3740fa8857
+          //  Application.Run(new AffiliationWorksToTeamLeader());
+
+            Application.Run(new AddWorker());
 
         }
     }
