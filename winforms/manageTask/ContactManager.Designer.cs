@@ -50,6 +50,7 @@ namespace manageTask
             // 
             // lbl_message
             // 
+<<<<<<< HEAD
             this.lbl_message.Location = new System.Drawing.Point(31, 104);
             this.lbl_message.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_message.Name = "lbl_message";
@@ -58,17 +59,34 @@ namespace manageTask
             this.lbl_message.Text = "Write your message";
             this.lbl_message.ThemeName = "MaterialTeal";
             ((Telerik.WinControls.Primitives.TextPrimitive)(this.lbl_message.GetChildAt(0).GetChildAt(2).GetChildAt(1))).Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Bold);
+=======
+            this.lbl_message.Location = new System.Drawing.Point(314, 57);
+            this.lbl_message.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_message.Name = "lbl_message";
+            this.lbl_message.Size = new System.Drawing.Size(136, 21);
+            this.lbl_message.TabIndex = 4;
+            this.lbl_message.Text = "Write your message";
+            this.lbl_message.ThemeName = "MaterialTeal";
+>>>>>>> 798adb7eb2c5b8f80ccd8c2261cc4c3740fa8857
             // 
             // richTextBoxMessage
             // 
             this.richTextBoxMessage.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.richTextBoxMessage.LayoutMode = Telerik.WinForms.Documents.Model.DocumentLayoutMode.Flow;
+<<<<<<< HEAD
             this.richTextBoxMessage.Location = new System.Drawing.Point(26, 147);
+=======
+            this.richTextBoxMessage.Location = new System.Drawing.Point(126, 128);
+>>>>>>> 798adb7eb2c5b8f80ccd8c2261cc4c3740fa8857
             this.richTextBoxMessage.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxMessage.Name = "richTextBoxMessage";
             this.richTextBoxMessage.SelectionFill = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
             this.richTextBoxMessage.SelectionStroke = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(203)))), ((int)(((byte)(196)))));
+<<<<<<< HEAD
             this.richTextBoxMessage.Size = new System.Drawing.Size(413, 213);
+=======
+            this.richTextBoxMessage.Size = new System.Drawing.Size(549, 224);
+>>>>>>> 798adb7eb2c5b8f80ccd8c2261cc4c3740fa8857
             this.richTextBoxMessage.TabIndex = 3;
             this.richTextBoxMessage.ThemeName = "MaterialTeal";
             // 
@@ -76,7 +94,11 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(475, 452);
+=======
+            this.ClientSize = new System.Drawing.Size(804, 452);
+>>>>>>> 798adb7eb2c5b8f80ccd8c2261cc4c3740fa8857
             this.Controls.Add(this.btn_send_message);
             this.Controls.Add(this.lbl_message);
             this.Controls.Add(this.richTextBoxMessage);

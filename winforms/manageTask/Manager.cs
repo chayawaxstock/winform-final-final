@@ -4,6 +4,7 @@ using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace manageTask
@@ -35,13 +36,16 @@ namespace manageTask
         {
             //tabControl_SelectedIndexChanged(sender, e);
             //this.reportViewer1.RefreshReport();
-
-            UserProfil userControl = new UserProfil();
-            userControl.Visible = true;
-
-            this.Controls.Add(userControl);
-            this.ResumeLayout();
-
+            if (GlobalProp.CurrentUser != null)
+            {
+                UserProfil userControl = new UserProfil();
+                userControl.Visible = true;
+                userControl.Controls["name_value"].Text = GlobalProp.CurrentUser.UserName;
+                userControl.Controls["department_value"].Text = GlobalProp.CurrentUser.DepartmentUser.Department;
+                userControl.Location = new Point(Width,30);
+                this.Controls.Add(userControl);
+                this.ResumeLayout();
+            }
         }
 
         //private void btn_add_project_Click(object sender, EventArgs e)

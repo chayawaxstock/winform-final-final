@@ -238,6 +238,9 @@
     <Compile Include="Models\ProjectWorker.cs" />
     <Compile Include="HelpModel\SumHoursDoneUser.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectDetails.cs">
       <SubType>Form</SubType>
@@ -246,18 +249,6 @@
       <DependentUpon>ProjectDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RadForm2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RadForm2.Designer.cs">
-      <DependentUpon>RadForm2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RadRibbonForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RadRibbonForm1.Designer.cs">
-      <DependentUpon>RadRibbonForm1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Report.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,12 +266,6 @@
     </Compile>
     <Compile Include="SetTime.Designer.cs">
       <DependentUpon>SetTime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ShapedForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ShapedForm1.Designer.cs">
-      <DependentUpon>ShapedForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="TeamLeader.cs">
@@ -363,9 +348,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RadRibbonForm1.resx">
-      <DependentUpon>RadRibbonForm1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
@@ -374,9 +356,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SetTime.resx">
       <DependentUpon>SetTime.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ShapedForm1.resx">
-      <DependentUpon>ShapedForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TeamLeader.resx">
       <DependentUpon>TeamLeader.cs</DependentUpon>

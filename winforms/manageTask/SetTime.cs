@@ -77,9 +77,10 @@ namespace manageTask
 
         public static TimeSpan d = new TimeSpan(00, 00, 0000);
         public static TimeSpan time1 = TimeSpan.FromSeconds(1);
-        private void timer1_Tick(object sender, EventArgs e)
-        {
 
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
             d = d.Add(time1);
             lbl_clock.Text = d.ToString();
         }

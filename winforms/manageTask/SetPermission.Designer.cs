@@ -35,6 +35,7 @@ namespace manageTask
             this.cmbx_permission = new System.Windows.Forms.ComboBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.btn_set_permission = new Telerik.WinControls.UI.RadButton();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.label1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.label2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_permission)).BeginInit();
@@ -46,25 +47,28 @@ namespace manageTask
             // 
             this.label1.Location = new System.Drawing.Point(213, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 18);
+            this.label1.Size = new System.Drawing.Size(61, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Workers";
+            this.label1.ThemeName = "MaterialTeal";
             // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(292, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 18);
+            this.label2.Size = new System.Drawing.Size(243, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Choose a worker to set a permission";
+            this.label2.ThemeName = "MaterialTeal";
             // 
             // lbl_permission
             // 
             this.lbl_permission.Location = new System.Drawing.Point(443, 143);
             this.lbl_permission.Name = "lbl_permission";
-            this.lbl_permission.Size = new System.Drawing.Size(60, 18);
+            this.lbl_permission.Size = new System.Drawing.Size(80, 21);
             this.lbl_permission.TabIndex = 4;
             this.lbl_permission.Text = "Permission";
+            this.lbl_permission.ThemeName = "MaterialTeal";
             // 
             // cmbx_workers
             // 
@@ -88,16 +92,17 @@ namespace manageTask
             this.btn_set_permission.Enabled = false;
             this.btn_set_permission.Location = new System.Drawing.Point(345, 218);
             this.btn_set_permission.Name = "btn_set_permission";
-            this.btn_set_permission.Size = new System.Drawing.Size(110, 24);
+            this.btn_set_permission.Size = new System.Drawing.Size(120, 36);
             this.btn_set_permission.TabIndex = 7;
             this.btn_set_permission.Text = "Set permission";
+            this.btn_set_permission.ThemeName = "MaterialTeal";
             this.btn_set_permission.Click += new System.EventHandler(this.btn_set_permission_Click);
             // 
             // SetPermission
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 452);
             this.Controls.Add(this.btn_set_permission);
             this.Controls.Add(this.cmbx_permission);
             this.Controls.Add(this.cmbx_workers);
@@ -110,6 +115,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "Set permission";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.SetPermission_Load);
             ((System.ComponentModel.ISupportInitialize)(this.label1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.label2)).EndInit();
@@ -129,5 +135,6 @@ namespace manageTask
         private System.Windows.Forms.ComboBox cmbx_permission;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private Telerik.WinControls.UI.RadButton btn_set_permission;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

@@ -35,6 +35,7 @@ namespace manageTask
             this.btn_start = new Telerik.WinControls.UI.RadButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.cmbx_projects = new System.Windows.Forms.ComboBox();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_clock)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_name)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_end)).BeginInit();
@@ -50,53 +51,61 @@ namespace manageTask
             this.lbl_clock.Name = "lbl_clock";
             this.lbl_clock.Size = new System.Drawing.Size(2, 2);
             this.lbl_clock.TabIndex = 9;
+            this.lbl_clock.ThemeName = "MaterialTeal";
             // 
             // lbl_name
             // 
-            this.lbl_name.Location = new System.Drawing.Point(271, 180);
+            this.lbl_name.Location = new System.Drawing.Point(308, 177);
             this.lbl_name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(72, 18);
+            this.lbl_name.Size = new System.Drawing.Size(93, 21);
             this.lbl_name.TabIndex = 8;
             this.lbl_name.Text = "Project name";
+            this.lbl_name.ThemeName = "MaterialTeal";
             // 
             // btn_end
             // 
             this.btn_end.Location = new System.Drawing.Point(503, 269);
             this.btn_end.Margin = new System.Windows.Forms.Padding(4);
             this.btn_end.Name = "btn_end";
-            this.btn_end.Size = new System.Drawing.Size(100, 28);
+            this.btn_end.Size = new System.Drawing.Size(100, 36);
             this.btn_end.TabIndex = 6;
             this.btn_end.Text = "End";
+            this.btn_end.ThemeName = "MaterialTeal";
             this.btn_end.Visible = false;
+            this.btn_end.Click += new System.EventHandler(this.btn_end_Click);
             // 
             // btn_start
             // 
             this.btn_start.Location = new System.Drawing.Point(278, 269);
             this.btn_start.Margin = new System.Windows.Forms.Padding(4);
             this.btn_start.Name = "btn_start";
-            this.btn_start.Size = new System.Drawing.Size(100, 28);
+            this.btn_start.Size = new System.Drawing.Size(100, 36);
             this.btn_start.TabIndex = 5;
             this.btn_start.Text = "Start";
+            this.btn_start.ThemeName = "MaterialTeal";
             this.btn_start.Visible = false;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // timer1
             // 
             this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // cmbx_projects
             // 
             this.cmbx_projects.FormattingEnabled = true;
-            this.cmbx_projects.Location = new System.Drawing.Point(356, 177);
+            this.cmbx_projects.Location = new System.Drawing.Point(421, 177);
             this.cmbx_projects.Name = "cmbx_projects";
             this.cmbx_projects.Size = new System.Drawing.Size(121, 21);
             this.cmbx_projects.TabIndex = 10;
+            this.cmbx_projects.SelectedIndexChanged += new System.EventHandler(this.cmbx_projects_SelectedIndexChanged);
             // 
             // SetTime
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1027, 554);
+            this.ClientSize = new System.Drawing.Size(1031, 556);
             this.Controls.Add(this.cmbx_projects);
             this.Controls.Add(this.lbl_clock);
             this.Controls.Add(this.lbl_name);
@@ -108,6 +117,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "SetTime";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.SetTime_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lbl_clock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_name)).EndInit();
@@ -127,5 +137,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadButton btn_start;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ComboBox cmbx_projects;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

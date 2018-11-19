@@ -27,7 +27,7 @@ namespace manageTask
 
             if (projects != null)
             {
-                dvg_worker_projects.DataSource = projects.Select(p => new { p.Project.ProjectName, p.HoursForProject, p.SumHoursDone }).ToList();
+                dvg_worker_projects.DataSource = projects.Select(p => new { p.Project.ProjectName,p.Project.DateBegin,p.Project.DateEnd, p.HoursForProject, p.SumHoursDone,p.madePercent,p.daysLeft }).ToList();
 
             }
 

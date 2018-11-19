@@ -35,7 +35,14 @@ namespace manageTask
             this.graphHoursStatusToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
             this.cotactTheManagerToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
             this.yourTasksToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.radClock1 = new Telerik.WinControls.UI.RadClock();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
+            this.lbl_date = new Telerik.WinControls.UI.RadLabel();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radClock1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl_date)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -52,50 +59,74 @@ namespace manageTask
             this.yourTasksToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1537, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1541, 37);
             this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ThemeName = "MaterialTeal";
             // 
             // setTimeToolStripMenuItem
             // 
             this.setTimeToolStripMenuItem.Name = "setTimeToolStripMenuItem";
-            this.setTimeToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
             this.setTimeToolStripMenuItem.Text = "Set time";
-            this.setTimeToolStripMenuItem.Click += this.setTimeToolStripMenuItem_Click;
             // 
             // graphHoursStatusToolStripMenuItem
             // 
             this.graphHoursStatusToolStripMenuItem.Name = "graphHoursStatusToolStripMenuItem";
-            this.graphHoursStatusToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.graphHoursStatusToolStripMenuItem.Text = "Graph hours status";
-            this.graphHoursStatusToolStripMenuItem.Click += this.graphHoursStatusToolStripMenuItem_Click;
             // 
             // cotactTheManagerToolStripMenuItem
             // 
             this.cotactTheManagerToolStripMenuItem.Name = "cotactTheManagerToolStripMenuItem";
-            this.cotactTheManagerToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.cotactTheManagerToolStripMenuItem.Text = "Cotact the manager";
-            this.cotactTheManagerToolStripMenuItem.Click += this.cotactTheManagerToolStripMenuItem_Click;
             // 
             // yourTasksToolStripMenuItem
             // 
             this.yourTasksToolStripMenuItem.Name = "yourTasksToolStripMenuItem";
-            this.yourTasksToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.yourTasksToolStripMenuItem.Text = "Your tasks";
-            this.yourTasksToolStripMenuItem.Click += this.yourTasksToolStripMenuItem_Click;
+            // 
+            // radClock1
+            // 
+            this.radClock1.BackColor = System.Drawing.Color.Transparent;
+            this.radClock1.Location = new System.Drawing.Point(1242, 64);
+            this.radClock1.Name = "radClock1";
+            this.radClock1.Size = new System.Drawing.Size(134, 135);
+            this.radClock1.TabIndex = 4;
+            this.radClock1.ThemeName = "MaterialTeal";
+            // 
+            // lbl_date
+            // 
+            this.lbl_date.Location = new System.Drawing.Point(1311, 225);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(2, 2);
+            this.lbl_date.TabIndex = 5;
+            this.lbl_date.ThemeName = "MaterialTeal";
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // CompanyWorker
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1537, 875);
+            this.ClientSize = new System.Drawing.Size(1541, 877);
+            this.Controls.Add(this.lbl_date);
+            this.Controls.Add(this.radClock1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CompanyWorker";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
             this.Text = "CompanyWorker";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.ThemeName = "MaterialTeal";
+            this.Load += new System.EventHandler(this.CompanyWorker_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radClock1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lbl_date)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,5 +139,9 @@ namespace manageTask
         private Telerik.WinControls.UI.RadMenuItem graphHoursStatusToolStripMenuItem;
         private Telerik.WinControls.UI.RadMenuItem cotactTheManagerToolStripMenuItem;
         private Telerik.WinControls.UI.RadMenuItem yourTasksToolStripMenuItem;
+        private Telerik.WinControls.UI.RadClock radClock1;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
+        private Telerik.WinControls.UI.RadLabel lbl_date;
+        private System.Windows.Forms.Timer timer2;
     }
 }

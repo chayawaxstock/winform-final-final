@@ -19,6 +19,7 @@ namespace manageTask
         SetTime setTime = new SetTime();
         GraphHoursStatusCompanyWorker graphHours = new GraphHoursStatusCompanyWorker();
         ContactManager contactManager = new ContactManager();
+        
         CompanyWorkerTasks workerTasks = new CompanyWorkerTasks();
         public CompanyWorker()
         {
@@ -137,6 +138,34 @@ namespace manageTask
             workerTasks.MdiParent = this;
             workerTasks.Show();
             workerTasks.WindowState = FormWindowState.Maximized;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            lbl_date.Text = DateTime.Now.ToString("yyyy-MM-dd").ToString();
+
+        }
+
+        private void CompanyWorker_Load(object sender, EventArgs e)
+        {
+            if (GlobalProp.CurrentUser != null)
+            {
+                UserProfil userControl = new UserProfil();
+                userControl.Visible = true;
+                userControl.Controls["name_value"].Text = GlobalProp.CurrentUser.UserName;
+                userControl.Controls["department_value"].Text = GlobalProp.CurrentUser.DepartmentUser.Department;
+                this.Controls.Add(userControl);
+                this.ResumeLayout();
+                int zIndex = this.Controls.GetChildIndex(userControl);
+                // Bring it to the front
+                userControl.BringToFront();
+                // Do something...
+                // Then send it back again
+                Controls.SetChildIndex(userControl, zIndex+2);
+                userControl.Location = new Point(Width-userControl.Width, 10);
+
+                
+            }
         }
     }
 }

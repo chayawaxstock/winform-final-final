@@ -32,6 +32,7 @@ namespace manageTask
             this.lbl_name = new Telerik.WinControls.UI.RadLabel();
             this.cmbx_workers = new System.Windows.Forms.ComboBox();
             this.btn_delete = new Telerik.WinControls.UI.RadButton();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.label1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_name)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_delete)).BeginInit();
@@ -42,17 +43,19 @@ namespace manageTask
             // 
             this.label1.Location = new System.Drawing.Point(300, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 18);
+            this.label1.Size = new System.Drawing.Size(250, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Choose the worker you want to delete";
+            this.label1.ThemeName = "MaterialTeal";
             // 
             // lbl_name
             // 
             this.lbl_name.Location = new System.Drawing.Point(300, 152);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(76, 18);
+            this.lbl_name.Size = new System.Drawing.Size(97, 21);
             this.lbl_name.TabIndex = 2;
             this.lbl_name.Text = "Worker name:";
+            this.lbl_name.ThemeName = "MaterialTeal";
             // 
             // cmbx_workers
             // 
@@ -66,16 +69,17 @@ namespace manageTask
             // 
             this.btn_delete.Location = new System.Drawing.Point(358, 205);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(110, 24);
+            this.btn_delete.Size = new System.Drawing.Size(120, 36);
             this.btn_delete.TabIndex = 4;
             this.btn_delete.Text = "Delete worker";
+            this.btn_delete.ThemeName = "MaterialTeal";
             this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // DeleteWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 452);
             this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.cmbx_workers);
             this.Controls.Add(this.lbl_name);
@@ -86,6 +90,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "Delete worker";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.DeleteWorker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.label1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbl_name)).EndInit();
@@ -102,5 +107,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadLabel lbl_name;
         private System.Windows.Forms.ComboBox cmbx_workers;
         private Telerik.WinControls.UI.RadButton btn_delete;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

@@ -36,6 +36,7 @@ namespace manageTask
             this.logOutToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
             this.aboutToolStripMenuItem = new Telerik.WinControls.UI.RadMenuItem();
             this.fluentTheme1 = new Telerik.WinControls.Themes.FluentTheme();
+            this.materialTealTheme1 = new Telerik.WinControls.Themes.MaterialTealTheme();
             ((System.ComponentModel.ISupportInitialize)(this.btn_sign_in)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_computer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuStrip1)).BeginInit();
@@ -48,20 +49,20 @@ namespace manageTask
             // 
             this.btn_sign_in.Location = new System.Drawing.Point(25, 77);
             this.btn_sign_in.Name = "btn_sign_in";
-            this.btn_sign_in.Size = new System.Drawing.Size(75, 23);
+            this.btn_sign_in.Size = new System.Drawing.Size(75, 36);
             this.btn_sign_in.TabIndex = 1;
             this.btn_sign_in.Text = "sign in ";
-            this.btn_sign_in.ThemeName = "Fluent";
+            this.btn_sign_in.ThemeName = "MaterialTeal";
             this.btn_sign_in.Click += new System.EventHandler(this.btn_sign_in_Click_1);
             // 
             // btn_computer
             // 
             this.btn_computer.Location = new System.Drawing.Point(25, 45);
             this.btn_computer.Name = "btn_computer";
-            this.btn_computer.Size = new System.Drawing.Size(172, 23);
+            this.btn_computer.Size = new System.Drawing.Size(172, 36);
             this.btn_computer.TabIndex = 2;
             this.btn_computer.Text = "with user computer";
-            this.btn_computer.ThemeName = "Fluent";
+            this.btn_computer.ThemeName = "MaterialTeal";
             this.btn_computer.Click += new System.EventHandler(this.btn_computer_Click_1);
             // 
             // menuStrip1
@@ -73,16 +74,18 @@ namespace manageTask
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1301, 20);
+            this.menuStrip1.Size = new System.Drawing.Size(1305, 37);
             this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.ThemeName = "MaterialTeal";
             // 
             // lbl_name
             // 
             this.lbl_name.Location = new System.Drawing.Point(1094, 3);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(38, 18);
+            this.lbl_name.Size = new System.Drawing.Size(47, 21);
             this.lbl_name.TabIndex = 5;
             this.lbl_name.Text = "hhhhh";
+            this.lbl_name.ThemeName = "MaterialTeal";
             // 
             // loginToolStripMenuItem
             // 
@@ -103,7 +106,7 @@ namespace manageTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1301, 786);
+            this.ClientSize = new System.Drawing.Size(1305, 788);
             this.Controls.Add(this.btn_computer);
             this.Controls.Add(this.btn_sign_in);
             this.Controls.Add(this.menuStrip1);
@@ -114,6 +117,7 @@ namespace manageTask
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "Wellcome";
+            this.ThemeName = "MaterialTeal";
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btn_sign_in)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_computer)).EndInit();
@@ -137,5 +141,6 @@ namespace manageTask
         private Telerik.WinControls.UI.RadMenuItem aboutToolStripMenuItem;
         private Telerik.WinControls.UI.RadLabel lbl_name;
         private Telerik.WinControls.Themes.FluentTheme fluentTheme1;
+        private Telerik.WinControls.Themes.MaterialTealTheme materialTealTheme1;
     }
 }

@@ -231,7 +231,16 @@ namespace manageTask
 
         private void TeamLeader_Load(object sender, EventArgs e)
         {
-
+            if (GlobalProp.CurrentUser != null)
+            {
+                UserProfil userControl = new UserProfil();
+                userControl.Visible = true;
+                userControl.Controls["name_value"].Text = GlobalProp.CurrentUser.UserName;
+                userControl.Controls["department_value"].Text = GlobalProp.CurrentUser.DepartmentUser.Department;
+                userControl.Location = new Point(Width, 30);
+                this.Controls.Add(userControl);
+                this.ResumeLayout();
+            }
         }
 
         private void radButton1_Click(object sender, EventArgs e)
