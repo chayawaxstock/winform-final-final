@@ -138,5 +138,11 @@ namespace manageTask
             workerTasks.Show();
             workerTasks.WindowState = FormWindowState.Maximized;
         }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            lbl_date.Text = DateTime.Now.ToString("yyyy-MM-dd").ToString();
+
+        }
     }
 }

@@ -14,5 +14,7 @@ namespace manageTask.Models
         public Project Project { get; set; }
         public User User { get; set; }
         public decimal SumHoursDone { get; set; }
+        public Double daysLeft { get; set; }
+        public decimal madePercent { get; set; }
     }
 }

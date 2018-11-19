@@ -55,7 +55,7 @@ namespace manageTask.Logic
         {
             try
             {
-                var httpWebRequest = (HttpWebRequest)WebRequest.Create($@"http://{GlobalProp.URI}api/updatePresentDay");
+                var httpWebRequest = (HttpWebRequest)WebRequest.Create($@"{GlobalProp.URI}api/updatePresentDay");
                 httpWebRequest.ContentType = "application/json";
                 httpWebRequest.Method = "PUT";
                 using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))

@@ -198,7 +198,7 @@ namespace manageTask.Logic
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri($"{GlobalProp.URI}");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync($"api/Users/getSumHoursDoneForUsers/{GlobalProp.CurrentUser.UserId}/{projectId}").Result;
+            HttpResponseMessage response = client.GetAsync($"api/getSumHoursDoneForUsers/{GlobalProp.CurrentUser.UserId}/{projectId}").Result;
             if (response.IsSuccessStatusCode)
             {
  

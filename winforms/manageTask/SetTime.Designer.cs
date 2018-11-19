@@ -69,6 +69,7 @@ namespace manageTask
             this.btn_end.TabIndex = 6;
             this.btn_end.Text = "End";
             this.btn_end.Visible = false;
+            this.btn_end.Click += new System.EventHandler(this.btn_end_Click);
             // 
             // btn_start
             // 
@@ -79,10 +80,12 @@ namespace manageTask
             this.btn_start.TabIndex = 5;
             this.btn_start.Text = "Start";
             this.btn_start.Visible = false;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // timer1
             // 
             this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // cmbx_projects
             // 
@@ -91,6 +94,7 @@ namespace manageTask
             this.cmbx_projects.Name = "cmbx_projects";
             this.cmbx_projects.Size = new System.Drawing.Size(121, 21);
             this.cmbx_projects.TabIndex = 10;
+            this.cmbx_projects.SelectedIndexChanged += new System.EventHandler(this.cmbx_projects_SelectedIndexChanged);
             // 
             // SetTime
             // 
