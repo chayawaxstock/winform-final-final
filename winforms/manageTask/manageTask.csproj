@@ -123,27 +123,19 @@
     <Reference Include="TelerikExport, Version=2018.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddProject.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="AddProject.cs" />
     <Compile Include="AddProject.Designer.cs">
       <DependentUpon>AddProject.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="AddWorker.cs" />
     <Compile Include="AddWorker.Designer.cs">
       <DependentUpon>AddWorker.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddWorkerToProject.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="AddWorkerToProject.cs" />
     <Compile Include="AddWorkerToProject.Designer.cs">
       <DependentUpon>AddWorkerToProject.cs</DependentUpon>
     </Compile>
-    <Compile Include="AffiliationWorksToTeamLeader.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="AffiliationWorksToTeamLeader.cs" />
     <Compile Include="AffiliationWorksToTeamLeader.Designer.cs">
       <DependentUpon>AffiliationWorksToTeamLeader.cs</DependentUpon>
     </Compile>
@@ -153,46 +145,32 @@
     <Compile Include="CompanyWorker.Designer.cs">
       <DependentUpon>CompanyWorker.cs</DependentUpon>
     </Compile>
-    <Compile Include="CompanyWorkerTasks.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="CompanyWorkerTasks.cs" />
     <Compile Include="CompanyWorkerTasks.Designer.cs">
       <DependentUpon>CompanyWorkerTasks.cs</DependentUpon>
     </Compile>
-    <Compile Include="ContactManager.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ContactManager.cs" />
     <Compile Include="ContactManager.Designer.cs">
       <DependentUpon>ContactManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="DeleteWorker.cs" />
     <Compile Include="DeleteWorker.Designer.cs">
       <DependentUpon>DeleteWorker.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditHoursForWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="EditHoursForWorker.cs" />
     <Compile Include="EditHoursForWorker.Designer.cs">
       <DependentUpon>EditHoursForWorker.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="EditWorker.cs" />
     <Compile Include="EditWorker.Designer.cs">
       <DependentUpon>EditWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalProp.cs" />
-    <Compile Include="GraphHoursStatus.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="GraphHoursStatus.cs" />
     <Compile Include="GraphHoursStatus.Designer.cs">
       <DependentUpon>GraphHoursStatus.cs</DependentUpon>
     </Compile>
-    <Compile Include="GraphHoursStatusCompanyWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="GraphHoursStatusCompanyWorker.cs" />
     <Compile Include="GraphHoursStatusCompanyWorker.Designer.cs">
       <DependentUpon>GraphHoursStatusCompanyWorker.cs</DependentUpon>
     </Compile>
@@ -207,21 +185,15 @@
     <Compile Include="Logic\TaskRequests.cs" />
     <Compile Include="Logic\UserLogic.cs" />
     <Compile Include="Logic\UserRequests.cs" />
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Login.cs" />
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Main.cs" />
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Manager.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Manager.cs" />
     <Compile Include="Manager.Designer.cs">
       <DependentUpon>Manager.cs</DependentUpon>
     </Compile>
@@ -236,41 +208,29 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProjectDetails.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ProjectDetails.cs" />
     <Compile Include="ProjectDetails.Designer.cs">
       <DependentUpon>ProjectDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Report.cs" />
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="SetPermission.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="SetPermission.cs" />
     <Compile Include="SetPermission.Designer.cs">
       <DependentUpon>SetPermission.cs</DependentUpon>
     </Compile>
-    <Compile Include="SetTime.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="SetTime.cs" />
     <Compile Include="SetTime.Designer.cs">
       <DependentUpon>SetTime.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="TeamLeader.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="TeamLeader.cs" />
     <Compile Include="TeamLeader.Designer.cs">
       <DependentUpon>TeamLeader.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserProfil.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="UserProfil.cs" />
     <Compile Include="UserProfil.Designer.cs">
       <DependentUpon>UserProfil.cs</DependentUpon>
     </Compile>

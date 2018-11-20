@@ -17,5 +17,7 @@ namespace manageTask.HelpModel
         public int DaysStay { get; set; }
         public decimal presentDoing { get; set; }
         public decimal NumHourDoDaysWorker { get; set; }
+
+        public List<HourDepartmentProject> DepartmentUser { get; set; } = new List<HourDepartmentProject>();
     }
 }

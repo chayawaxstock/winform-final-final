@@ -20,8 +20,10 @@ namespace manageTask
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-            Application.Run(new Main());
 
+          //  Application.Run(new AffiliationWorksToTeamLeader());
+
+            Application.Run(new AddWorker());
 
         }
     }
