@@ -19,7 +19,6 @@ namespace manageTask
         SetTime setTime = new SetTime();
         GraphHoursStatusCompanyWorker graphHours = new GraphHoursStatusCompanyWorker();
         ContactManager contactManager = new ContactManager();
-        
         CompanyWorkerTasks workerTasks = new CompanyWorkerTasks();
         public CompanyWorker()
         {
@@ -154,17 +153,10 @@ namespace manageTask
                 userControl.Visible = true;
                 userControl.Controls["name_value"].Text = GlobalProp.CurrentUser.UserName;
                 userControl.Controls["department_value"].Text = GlobalProp.CurrentUser.DepartmentUser.Department;
+                userControl.Location = new Point(Width-userControl.Width, 10);
+                userControl.BringToFront();
                 this.Controls.Add(userControl);
                 this.ResumeLayout();
-                int zIndex = this.Controls.GetChildIndex(userControl);
-                // Bring it to the front
-                userControl.BringToFront();
-                // Do something...
-                // Then send it back again
-                Controls.SetChildIndex(userControl, zIndex+2);
-                userControl.Location = new Point(Width-userControl.Width, 10);
-
-                
             }
         }
     }
